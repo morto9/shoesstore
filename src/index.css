@@ -20,9 +20,9 @@ body {
   font-family: "Noto Kufi Arabic", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
     "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
   background:
-    radial-gradient(1100px 650px at 18% 0%, rgba(232, 106, 93, 0.28), transparent 55%),
-    radial-gradient(900px 600px at 78% 10%, rgba(255, 138, 123, 0.18), transparent 55%),
-    #070810;
+    radial-gradient(1100px 650px at 18% 0%, rgba(112, 130, 168, 0.18), transparent 55%),
+    radial-gradient(900px 600px at 78% 10%, rgba(143, 172, 212, 0.14), transparent 55%),
+    #101424;
   color: var(--text);
 }
 
