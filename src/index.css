@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Subtle, premium defaults (kept minimal; Tailwind does the heavy lifting). */
+:root {
+  color-scheme: dark;
+  --brand: #e86a5d; /* logo coral */
+  --brand-2: #ff8a7b;
+  --ink: #0b0c11; /* charcoal */
+  --text: #e8e9ff;
+  --muted: rgba(232, 233, 255, 0.7);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Kufi Arabic", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  background:
+    radial-gradient(1100px 650px at 18% 0%, rgba(232, 106, 93, 0.28), transparent 55%),
+    radial-gradient(900px 600px at 78% 10%, rgba(255, 138, 123, 0.18), transparent 55%),
+    #070810;
+  color: var(--text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
