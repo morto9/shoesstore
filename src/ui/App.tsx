@@ -27,9 +27,8 @@ function Shell({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 border-b border-white/10 bg-black/25 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <a href="/" className="flex items-center gap-3">
-            <img
-              src="\public\Logo.png"
-              alt={t('brand.name')}
+            <img src="/Logo.png"
+              alt="Logo"
               className="h-9 w-9 rounded-lg bg-white/90 p-1 ring-1 ring-[var(--brand)]/35"
               loading="eager"
               decoding="async"
@@ -305,7 +304,7 @@ function Home() {
         </div>
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
           <div className="mb-5 flex items-center gap-3">
-            <img src="\public\Logo.png" alt={t('brand.name')} className="h-12 w-12 rounded-2xl bg-white/90 p-2" loading="lazy" decoding="async" />
+            <img src="\Logo.png" alt="Logo" className="h-12 w-12 rounded-2xl bg-white/90 p-2" loading="lazy" decoding="async" />
             <div>
               <div className="font-medium text-white">{t('brand.name')}</div>
               <div className="text-sm text-white/60">{t('footer.line2')}</div>

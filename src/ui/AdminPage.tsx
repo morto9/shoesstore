@@ -89,8 +89,8 @@ function AdminShell({ children }: { children: React.ReactNode }) {
           <div className="flex items-center gap-3">
             <a href="/" className="flex items-center gap-2 text-white/80 hover:text-white transition-colors">
               <img
-                src="\public\Logo.png"
-                alt="Shoe Store"
+                src="\Logo.png"
+                alt="Logo"
                 className="h-8 w-8 rounded-lg bg-white/90 p-1 ring-1 ring-[var(--brand)]/35"
                 loading="eager"
               />
