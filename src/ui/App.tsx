@@ -104,7 +104,7 @@ function Shell({ children }: { children: React.ReactNode }) {
               </a>
               <a
                 className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm font-medium text-white hover:bg-white/10"
-                href="https://www.instagram.com/catchy__step/"
+                href="https://www.instagram.com/instagram/"
                 target="_blank"
                 rel="noreferrer"
               >
